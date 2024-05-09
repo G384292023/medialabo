@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(187, 248, 232);
+}
+h2{
+    color: rgb(77, 77, 249);
+    text-shadow:1px 0 10px rgb(10, 239, 147);
+    text-align: center;
+}
+table{
+    margin:auto;
+    background-color: navajowhite;
+}
+th{
+    text-align: center;
+}
