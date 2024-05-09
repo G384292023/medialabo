@@ -1,5 +1,6 @@
 body{
-    background-color: rgb(187, 248, 232);
+    background-image: url(project.png);
+    background-size: 100%;
 }
 h2{
     color: rgb(77, 77, 249);
