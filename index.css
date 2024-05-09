@@ -1,0 +1,19 @@
+h1{
+    color: rgb(78, 74, 74);
+	text-shadow:1px 0 10px red;
+}
+p{
+    color: grey;
+}
+h2{
+    color: black;
+	text-shadow:1px 0 10px rgb(218, 117, 117);
+}
+h3{
+    font-family: cursive;
+	color: black;
+	background: linear-gradient(to right, rgb(210, 112, 112), #fbfbfa)
+}
+body{
+    background-color: mistyrose;
+}
