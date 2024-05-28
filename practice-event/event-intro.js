@@ -4,10 +4,23 @@
 let b1 = document.querySelector('button#blue');
 b1.addEventListener('click', changeH1ColorRed);
 
+function changeH1ColorRed(){
+	let h1 = docuent.querySelector('h1');
+
+	h1.style.color('blue');
+}
+
 //// 以下，練習5-2 でコードを追加
+let b2 = document.querySelector('button#random');
+b2.addEventListener('click',changeBackgroundColorRandom);
 
+function changeBackgroundColorRandom(){
+	let b2 = document.querySelector('h1');
 
-////////////////////////////////////////////////////////
+	h1.style.color('random');
+}
+
+/////////////////////////////////////////5ttttttttttttttttr55555555555555///////////////
 // 2. イベントハンドラ（イベントが発生したら実行する関数）
 
 function changeH1ColorRed() {
