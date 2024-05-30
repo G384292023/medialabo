@@ -15,8 +15,7 @@ function sendRequest() {
 }
 
 // 通信が成功した時の処理
-function showResult(resp) {
-	// サーバから送られてきたデータを出力
+function showResult(resp){
 	let data = resp.data;
 
 	// data が文字列型なら，オブジェクトに変換する
@@ -36,7 +35,6 @@ function showError(err) {
 	console.log(err);
 }	
 
-// 通信の最後にいつも実行する処理
 function finish() {
 	console.log('Ajax 通信が終わりました');
 }
