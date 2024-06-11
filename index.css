@@ -16,6 +16,8 @@ h3{
 }
 body{
     background-color: mistyrose;
+	font-feature-settings: "palt";
+	letter-spacing: 0.04em;
 }
 div#zentai {
 	display: grid;

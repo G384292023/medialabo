@@ -3,29 +3,36 @@ body{
     margin: 0;
     padding: 0;
     background-color: #b9d8eb;
+    background: linear-gradient(to right, #eebff3, #f742ac);
     color: #333;
     text-shadow:1px 0 10px rgb(249, 245, 245);
 }
 h1{
-    background-color: #988bc2;
+    background: radial-gradient(circle, #312931, #691251);
     color: white;
     text-align: center;
     padding: 1em 0;
-}
-p{
+}p{
     text-align: center;
+    background-color: (255,255,255,0.2);
+    backdrop-filter: blur(2px);
+    font-size: 25px;
 }
 h2{
     text-align: center;
     text-shadow:1px 0 10px rgb(62, 122, 244)
 }
 button{
-    background-color: #4CAF50; 
-    color: white;  
-    padding: 10px 20px;
-    font-size: 16px; 
-    border: none; 
-    border-radius: 5px; 
+    background-color: #fff;
+  border: 4px soild #000;
+  color: #000;
+  padding: 16px 20pxs;
+  text-decoration: none;
+  font: 60 2rem/1 futura;
+  cursor: pointer;
+  border-radius: 16px;
+  box-shadow: 4px 4px 0 #000;
+
 }
 label{
     background-color: #4CAF50; 
